@@ -5,13 +5,20 @@ st.title("Smart Insurance Assistance")
 st.subheader("A Multi- AI Agent powered ChatBot")
 
 # section for files upload options only to specific roles
-st.sidebar.title("Upload Files")
-user_role = st.sidebar.selectbox("Select your role:", ["Underwriter", "Admin", "Customer", "Sales Agent"])
+st.sidebar.title("User Login")
+user_role = st.sidebar.selectbox("Select your role:", ["Guest", "Underwriter", "Admin", "Customer", "Sales Agent"])
 
 if user_role in ["Underwriter", "Admin"]:
-    uploaded_file = st.sidebar.file_uploader("Choose a file", type=["pdf", "docx"])
-    if uploaded_file:
-        st.sidebar.write(f"Uploaded file: {uploaded_file.name}")
+    # Add a login screen with Username and Password fields
+    username = st.sidebar.text_input("Username")
+    password = st.sidebar.text_input("Password", type="password")
+    if st.sidebar.button("Submit"):
+        if username and password:
+            st.sidebar.success(f"Welcome, {username}!")
+            st.sidebar.subheader("Upload Files")
+            uploaded_files = st.sidebar.file_uploader("Authorized users can upload policy documents or relevant files to the secure database using the Browse files option below", accept_multiple_files=True)
+        else:
+            st.sidebar.error("Please enter both username and password.")
 
 # Text Area for interacting with the Bot
 user_input = st.text_area("max 500 words:", max_chars=500)
