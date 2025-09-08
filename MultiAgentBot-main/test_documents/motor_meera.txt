@@ -1,0 +1,59 @@
+MOTOR INSURANCE APPLICATION
+
+Vehicle Owner: Meera Singh
+Age: 38 years
+Occupation: Project Manager at ConstructCorp Pvt Ltd
+Driving License: TN0520070067890 (Valid till 2028)
+Contact: meera.singh@constructcorp.in, +91-9000000004
+
+VEHICLE DETAILS:
+Registration: TN09AB1234
+Make/Model: Maruti Suzuki Swift VDI
+Year: 2020
+Engine: G13BB1234567
+Chassis: MA3ERLF1S00123456
+Fuel: Diesel, 1248 CC
+Color: Pearl White
+Seating: 5 persons
+
+INSURANCE DETAILS:
+Policy Type: Comprehensive Motor Insurance
+IDV: Rs 6,50,000
+Previous Insurer: ICICI Lombard
+NCB: 20% (2 years claim-free)
+Policy Period: 12 months
+
+RIDERS SELECTED:
+✓ Zero Depreciation Cover
+✓ Roadside Assistance  
+✓ Engine Protection Cover
+
+USAGE PATTERN:
+Primary Use: Personal/Family transport
+Daily Usage: 25-30 km
+Parking: Covered parking (home and office)
+Geographic Use: Chennai city, occasional highway trips
+Additional Drivers: Spouse (License: TN0520070067890)
+
+DOCUMENTS SUBMITTED:
+✓ RC Book (original for verification)
+✓ Previous Policy (ICICI Lombard, expired 25/08/2025)
+✓ Valid Driving License
+✓ NCB Certificate (20% from previous insurer)
+✓ Vehicle Photographs (all angles)
+✓  Fitness Certificate (all angles)
+✗ Vehicle Inspection Report (scheduled for tomorrow)
+
+CLAIMS HISTORY:
+2023: No claims
+2022: No claims  
+2021: Minor scratch repair - Rs 15,000 (own damage)
+Total Claims (5 years): 1 claim
+
+VEHICLE CONDITION:
+Overall: Good condition
+Engine: Running smoothly, no oil leaks
+Body: Minor scratches on rear bumper
+Tires: 70% tread remaining
+Interior: Well maintained
+Modifications: None

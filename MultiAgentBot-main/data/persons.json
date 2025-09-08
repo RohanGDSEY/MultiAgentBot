@@ -1,0 +1,100 @@
+{
+  "people": [
+    {
+      "id": "P001",
+      "name": "Rohit Sharma",
+      "email": "rohit.sharma@sharmamanufacturing.com",
+      "phone": "+91-9000000001",
+      "age": 34,
+      "org": "Sharma Manufacturing Pvt Ltd",
+      "org_size": "51-200",
+      "location": "Mumbai",
+      "interests": ["health", "group_health", "liability"],
+      "risk_factors": { 
+        "smoker": false, 
+        "industry": "manufacturing", 
+        "claims_last_3y": 0,
+        "medical_history": "Hypertension controlled with medication",
+        "annual_income": 1200000
+      }
+    },
+    {
+      "id": "P002",
+      "name": "Priya Patel",
+      "email": "priya.patel@techsolutions.in",
+      "phone": "+91-9000000002", 
+      "age": 28,
+      "org": "TechSolutions India",
+      "org_size": "201-500",
+      "location": "Bangalore",
+      "interests": ["health", "life", "disability"],
+      "risk_factors": {
+        "smoker": false,
+        "industry": "it",
+        "claims_last_3y": 1,
+        "medical_history": "No significant medical history",
+        "annual_income": 800000
+      }
+    },
+    {
+      "id": "P003",
+      "name": "Rajesh Kumar",
+      "email": "rajesh@kumarenterprises.com",
+      "phone": "+91-9000000003",
+      "age": 45,
+      "org": "Kumar Enterprises",
+      "org_size": "11-50", 
+      "location": "Delhi",
+      "interests": ["motor", "commercial", "liability"],
+      "risk_factors": {
+        "smoker": true,
+        "industry": "retail",
+        "claims_last_3y": 2,
+        "medical_history": "Diabetes Type 2, managed",
+        "annual_income": 600000
+      }
+    },
+    {
+      "id": "P004",
+      "name": "Meera Singh",
+      "email": "meera.singh@constructcorp.in",
+      "phone": "+91-9000000004",
+      "age": 38,
+      "org": "ConstructCorp Pvt Ltd",
+      "org_size": "101-250",
+      "location": "Chennai",
+      "interests": ["health", "life", "group_health"],
+      "risk_factors": {
+        "smoker": false,
+        "industry": "construction", 
+        "claims_last_3y": 0,
+        "medical_history": "Previous back injury, fully recovered",
+        "annual_income": 950000
+      }
+    },
+    {
+      "name": "Arjun Desai",
+      "age": 52,
+      "occupation": "Finance Director",
+      "annual_income": 1500000,
+      "medical_info": {
+        "bmi": 26.1,
+        "medications": ["Atorvastatin 20mg"],
+        "conditions": ["High Cholesterol"],
+        "smoking": "never",
+        "alcohol": "social",
+        "exercise": "regular",
+        "family_history": ["Father - Heart attack at 65", "Mother - Hypertension"]
+      },
+      "insurance_history": {
+        "existing_coverage": 2000000,
+        "previous_claims": 0
+      },
+      "risk_factors": {
+        "industry": "finance",
+        "smoker": false,
+        "claims_last_3y": 0
+      }
+    }
+  ]
+}

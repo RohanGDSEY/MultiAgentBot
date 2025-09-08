@@ -1,0 +1,108 @@
+{
+  "health": {
+    "required": [
+      "Proposal Form",
+      "KYC Documents (Aadhaar + PAN)",
+      "Medical Report",
+      "Previous Policy (if porting)",
+      "Age Proof",
+      "Passport Size Photographs"
+    ],
+    "optional": [
+      "Income Proof for high SI",
+      "Medical Test Reports",
+      "Pre-existing Disease Declaration",
+      "Family Medical History"
+    ],
+    "medical_tests_required": {
+      "age_18_45": ["BMI check"],
+      "age_46_60": ["Blood test", "ECG", "Urine test"],
+      "age_61_plus": ["Blood test", "ECG", "Urine test", "Chest X-ray", "Stress test"]
+    }
+  },
+  "life": {
+    "required": [
+      "Proposal Form",
+      "KYC Documents (Aadhaar + PAN)",
+      "Income Proof",
+      "Age Proof",
+      "Nominee Details with KYC",
+      "Passport Size Photographs",
+      "Medical Report"
+    ],
+    "optional": [
+      "Financial Statement (for high SI)",
+      "Medical Test Reports",
+      "Employment Certificate",
+      "Bank Statement (6 months)"
+    ],
+    "medical_tests_required": {
+      "sum_insured_below_25L": ["Self declaration"],
+      "sum_insured_25L_50L": ["Blood test", "Urine test"],
+      "sum_insured_above_50L": ["Blood test", "Urine test", "ECG", "Chest X-ray"]
+    }
+  },
+  "motor": {
+    "required": [
+      "RC Book (Registration Certificate)",
+      "Previous Policy Copy",
+      "Driving License",
+      "Vehicle Inspection Report",
+      "Fitness Certificate (commercial vehicles)",
+      "No Claim Bonus Certificate"
+    ],
+    "optional": [
+      "Vehicle Purchase Invoice",
+      "Hypothecation Letter (if financed)",
+      "Previous Claim History"
+    ],
+    "inspection_requirements": {
+      "new_vehicle": ["Photo verification"],
+      "used_vehicle": ["Physical inspection", "Engine check", "Body condition"],
+      "commercial_vehicle": ["Fitness certificate", "Permit verification"]
+    }
+  },
+  "commercial": {
+    "required": [
+      "Proposal Form",
+      "Business Registration Certificate",
+      "GST Certificate",
+      "Financial Statements (3 years)",
+      "Business License",
+      "Property Documents",
+      "Fire Safety Certificate"
+    ],
+    "optional": [
+      "Auditor Certificate",
+      "Previous Insurance Policy",
+      "Risk Assessment Report",
+      "Security System Details",
+      "Employee List (for group policies)"
+    ],
+    "risk_assessment": {
+      "property_survey": "Required for property above 1 Cr",
+      "fire_audit": "Required for manufacturing units",
+      "security_audit": "Required for high-value goods"
+    }
+  },
+  "group_health": {
+    "required": [
+      "Master Policy Proposal",
+      "Employee List with Details",
+      "HR Letter",
+      "Company Registration Certificate",
+      "GST Certificate",
+      "Group Medical Report Summary"
+    ],
+    "optional": [
+      "Previous Group Policy",
+      "Claims Experience Certificate",
+      "Employee Medical History",
+      "Wellness Program Details"
+    ],
+    "employee_requirements": {
+      "below_100": ["Employee list with basic details"],
+      "above_100": ["Detailed employee demographics", "Medical history summary"]
+    }
+  }
+}

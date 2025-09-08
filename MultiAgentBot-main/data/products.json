@@ -1,0 +1,129 @@
+{
+  "products": [
+    {
+      "id": "PRD-HLT-001",
+      "company": "Alpha Insurance",
+      "name": "Alpha Health Shield",
+      "category": "health",
+      "base_rate": 12000,
+      "sum_insured_bands": [300000, 500000, 1000000, 2000000],
+      "age_factor": [[18,30,0.9],[31,45,1.0],[46,60,1.4],[61,75,2.0]],
+      "industry_factor": { 
+        "manufacturing": 1.1, 
+        "it": 0.95, 
+        "retail": 1.0,
+        "construction": 1.3,
+        "finance": 0.98,
+        "healthcare": 1.05
+      },
+      "riders": [
+        {"code":"ACCI","name":"Accident cover","factor":1.08},
+        {"code":"CRIT","name":"Critical illness","factor":1.12},
+        {"code":"MATER","name":"Maternity cover","factor":1.15},
+        {"code":"DENT","name":"Dental cover","factor":1.05}
+      ],
+      "brochure_path": "data/brochures/alpha_health_shield.pdf",
+      "eligibility": "Age 18-65; KYC; No major pre-existing undeclared",
+      "features": ["Cashless treatment", "Pre-post hospitalization", "Day care procedures"]
+    },
+    {
+      "id": "PRD-HLT-002", 
+      "company": "Beta Health",
+      "name": "Beta Family Care Plus",
+      "category": "health",
+      "base_rate": 15000,
+      "sum_insured_bands": [500000, 1000000, 1500000, 3000000],
+      "age_factor": [[18,30,0.85],[31,45,1.0],[46,60,1.5],[61,75,2.2]],
+      "industry_factor": {
+        "manufacturing": 1.2,
+        "it": 0.9,
+        "retail": 1.0,
+        "construction": 1.4,
+        "finance": 0.95,
+        "healthcare": 1.0
+      },
+      "riders": [
+        {"code":"ACCI","name":"Accident cover","factor":1.1},
+        {"code":"CRIT","name":"Critical illness","factor":1.18},
+        {"code":"MATER","name":"Maternity cover","factor":1.2}
+      ],
+      "brochure_path": "data/brochures/beta_family_care.pdf",
+      "eligibility": "Age 18-70; Family floater available",
+      "features": ["Family floater", "Health check-up", "Emergency ambulance"]
+    },
+    {
+      "id": "PRD-LIF-001",
+      "company": "Gamma Life",
+      "name": "Gamma Term Life Pro",
+      "category": "life",
+      "base_rate": 8000,
+      "sum_insured_bands": [1000000, 2500000, 5000000, 10000000],
+      "age_factor": [[18,30,0.8],[31,40,1.0],[41,50,1.3],[51,65,1.8]],
+      "industry_factor": {
+        "manufacturing": 1.15,
+        "it": 0.95,
+        "retail": 1.0,
+        "construction": 1.5,
+        "finance": 0.9,
+        "mining": 2.0
+      },
+      "riders": [
+        {"code":"ACCI","name":"Accidental death","factor":1.05},
+        {"code":"CRIT","name":"Critical illness","factor":1.25},
+        {"code":"DISA","name":"Disability benefit","factor":1.15}
+      ],
+      "brochure_path": "data/brochures/gamma_term_life.pdf",
+      "eligibility": "Age 18-65; Medical tests required above 50",
+      "features": ["Pure term plan", "High coverage", "Tax benefits under 80C"]
+    },
+    {
+      "id": "PRD-MOT-001",
+      "company": "Delta Motors",
+      "name": "Delta Comprehensive Auto",
+      "category": "motor",
+      "base_rate": 25000,
+      "sum_insured_bands": [200000, 500000, 1000000, 1500000],
+      "age_factor": [[18,25,1.3],[26,35,1.0],[36,50,1.1],[51,70,1.4]],
+      "industry_factor": {
+        "manufacturing": 1.05,
+        "it": 0.95,
+        "retail": 1.0,
+        "construction": 1.2,
+        "transport": 1.3
+      },
+      "riders": [
+        {"code":"ZERO","name":"Zero depreciation","factor":1.2},
+        {"code":"RSA","name":"Roadside assistance","factor":1.03},
+        {"code":"ENG","name":"Engine protection","factor":1.08}
+      ],
+      "brochure_path": "data/brochures/delta_auto_comprehensive.pdf",
+      "eligibility": "Valid driving license; Vehicle inspection required",
+      "features": ["Comprehensive coverage", "Cashless garage network", "24x7 claim support"]
+    },
+    {
+      "id": "PRD-COM-001",
+      "company": "Epsilon Commercial",
+      "name": "Epsilon Business Shield",
+      "category": "commercial",
+      "base_rate": 45000,
+      "sum_insured_bands": [1000000, 2500000, 5000000, 10000000],
+      "age_factor": [[0,5,1.2],[6,15,1.0],[16,25,1.1],[26,50,1.3]],
+      "industry_factor": {
+        "manufacturing": 1.4,
+        "it": 0.8,
+        "retail": 1.0,
+        "construction": 1.8,
+        "finance": 0.9,
+        "hospitality": 1.2
+      },
+      "riders": [
+        {"code":"CYBER","name":"Cyber liability","factor":1.15},
+        {"code":"PUBL","name":"Public liability","factor":1.1},
+        {"code":"PROP","name":"Property damage","factor":1.2}
+      ],
+      "brochure_path": "data/brochures/epsilon_business_shield.pdf",
+      "eligibility": "Registered business; Financial audit required",
+      "features": ["Business interruption", "Public liability", "Key person coverage"]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "policies": [
+    {
+      "policy_number": "POL-HLT-2024-001",
+      "customer_name": "Rohit Sharma",
+      "customer_email": "rohit.sharma@sharmamanufacturing.com",
+      "customer_phone": "+91-9000000001",
+      "policy_type": "health",
+      "product_name": "Alpha Health Shield",
+      "insurance_company": "Alpha Insurance",
+      "status": "active",
+      "sum_insured": 1000000,
+      "annual_premium": 15600,
+      "start_date": "2024-01-15",
+      "end_date": "2025-01-14",
+      "benefits": [
+        "Cashless treatment at 5000+ hospitals",
+        "Pre and post hospitalization coverage",
+        "Day care procedures covered",
+        "Annual health checkup",
+        "Emergency ambulance coverage"
+      ],
+      "exclusions": [
+        "Pre-existing diseases (first 3 years)",
+        "Cosmetic surgery and plastic surgery",
+        "Dental treatment (unless due to accident)",
+        "Self-inflicted injuries and suicide attempts",
+        "War and nuclear risks",
+        "Experimental treatments and unproven therapies",
+        "Fertility treatments and surrogacy",
+        "Obesity treatment and weight reduction surgery"
+      ],
+      "riders": ["CRIT", "ACCI"],
+      "claim_history": [],
+      "terms_conditions": "Subject to policy terms. Pre-existing diseases covered after 3 years.",
+      "claim_process": "Notify within 48 hours. Submit documents within 7 days. Cashless or reimbursement available.",
+      "next_renewal": "2025-01-14",
+      "auto_renewal": true
+    },
+    {
+      "policy_number": "POL-LIF-2023-045",
+      "customer_name": "Rohit Sharma",
+      "customer_email": "rohit.sharma@sharmamanufacturing.com",
+      "customer_phone": "+91-9000000001",
+      "policy_type": "life",
+      "product_name": "Gamma Term Life Pro",
+      "insurance_company": "Gamma Life",
+      "status": "active",
+      "sum_insured": 5000000,
+      "annual_premium": 12000,
+      "start_date": "2023-06-01",
+      "end_date": "2043-05-31",
+      "benefits": [
+        "Death benefit to nominee",
+        "Accidental death additional coverage",
+        "Terminal illness benefit",
+        "Tax benefits under 80C",
+        "Loan facility after 3 years"
+      ],
+      "exclusions": [
+        "Suicide within first year of policy",
+        "Death due to war, invasion, or military operations",
+        "Self-inflicted injuries while sane or insane",
+        "Death while under influence of drugs or alcohol",
+        "Participation in hazardous activities like mountaineering",
+        "Death due to pre-existing diseases not disclosed",
+        "Death during participation in criminal activities"
+      ],
+      "riders": ["ACCI", "DISA"],
+      "nominee_name": "Mrs. Sharma",
+      "nominee_relationship": "Spouse",
+      "terms_conditions": "20-year term policy. Premium payment annual.",
+      "claim_process": "Nominee to submit death certificate and claim form within 90 days.",
+      "premium_paid_till": "2024-05-31",
+      "next_premium_due": "2025-05-31"
+    },
+    {
+      "policy_number": "POL-MOT-2024-789",
+      "customer_name": "Priya Patel",
+      "customer_email": "priya.patel@techsolutions.in",
+      "customer_phone": "+91-9000000002",
+      "policy_type": "motor",
+      "product_name": "Delta Comprehensive Auto",
+      "insurance_company": "Delta Motors",
+      "status": "active",
+      "sum_insured": 800000,
+      "annual_premium": 28000,
+      "start_date": "2024-03-10",
+      "end_date": "2025-03-09",
+      "vehicle_details": {
+        "make": "Honda",
+        "model": "City",
+        "year": 2023,
+        "registration": "KA-01-AB-1234"
+      },
+      "benefits": [
+        "Comprehensive coverage",
+        "Zero depreciation",
+        "Cashless garage network",
+        "24x7 roadside assistance",
+        "Personal accident cover for driver"
+      ],
+      "exclusions": [
+        "Driving without valid license",
+        "Drunk driving or under influence of drugs",
+        "Racing, speed trials, or competitive events",
+        "Normal wear and tear",
+        "Consequential losses and loss of use",
+        "Depreciation (unless zero depreciation add-on)",
+        "Damage due to overloading",
+        "War risks and nuclear perils",
+        "Damage to tyres and tubes (unless vehicle damaged)",
+        "Electrical/electronic equipment damage"
+      ],
+      "riders": ["ZERO", "RSA"],
+      "claim_history": [
+        {
+          "claim_date": "2024-07-15",
+          "claim_amount": 15000,
+          "claim_type": "Minor accident repair",
+          "status": "settled"
+        }
+      ],
+      "ncb_percentage": 20,
+      "terms_conditions": "Standard motor insurance terms apply.",
+      "claim_process": "Report within 24 hours. Survey within 48 hours."
+    },
+    {
+      "policy_number": "POL-HLT-2024-234",
+      "customer_name": "Priya Patel",
+      "customer_email": "priya.patel@techsolutions.in",
+      "customer_phone": "+91-9000000002",
+      "policy_type": "health",
+      "product_name": "Beta Family Care Plus",
+      "insurance_company": "Beta Health",
+      "status": "active",
+      "sum_insured": 1500000,
+      "annual_premium": 22000,
+      "start_date": "2024-04-01",
+      "end_date": "2025-03-31",
+      "family_members": [
+        {"name": "Priya Patel", "age": 28, "relationship": "Self"},
+        {"name": "Spouse", "age": 30, "relationship": "Spouse"}
+      ],
+      "benefits": [
+        "Family floater coverage",
+        "Maternity benefits",
+        "Newborn baby coverage",
+        "Health checkup for all members",
+        "International emergency coverage"
+      ],
+      "exclusions": [
+        "Pre-existing diseases (first 2 years)",
+        "Maternity expenses (first 2 years)",
+        "Cosmetic and plastic surgery",
+        "Dental treatment (unless accident-related)",
+        "Alternative treatments like Ayurveda (unless specified)",
+        "Self-inflicted injuries",
+        "War and nuclear risks",
+        "Congenital diseases and genetic disorders",
+        "Infertility and assisted reproduction treatments"
+      ],
+      "riders": ["MATER"],
+      "claim_history": [],
+      "terms_conditions": "Family floater policy. Maternity after 2 year waiting.",
+      "claim_process": "Cashless through network hospitals or reimbursement.",
+      "wellness_points": 1500
+    }
+  ]
+}

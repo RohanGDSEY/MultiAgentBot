@@ -1,0 +1,52 @@
+LIFE INSURANCE APPLICATION
+
+Applicant: Arjun Desai
+Age: 52 years
+Occupation: Finance Director at FinancePlus Services
+Annual Income: Rs 15,00,000
+Contact: arjun@financeplus.co.in, +91-9000000005
+
+POLICY DETAILS:
+Sum Assured: Rs 50,00,000
+Policy Type: Term Life Insurance with Return of Premium
+Policy Term: 20 years
+Premium Payment: 15 years
+
+NOMINEE INFORMATION:
+Primary Nominee: Sunita Desai (Wife) - 100%
+Contingent Nominee: Aarav Desai (Son, Age 16)
+Appointee: Sunita Desai
+
+MEDICAL DECLARATION:
+Height: 5'8" (173 cm)
+Weight: 78 kg
+BMI: 26.1
+Current Medications: Atorvastatin 20mg daily for high cholesterol
+Smoking: Never smoked
+Alcohol: Social drinking (1-2 drinks per week)
+Exercise: Regular walking, yoga 3 times per week
+
+MEDICAL HISTORY:
+Previous Surgeries: Appendectomy (1995)
+Chronic Conditions: High cholesterol (diagnosed 2020)
+Hospitalizations: None in last 5 years
+Family History: Father - Heart attack at 65, Mother - Hypertension
+
+DOCUMENTS SUBMITTED:
+✓ Proposal Form (completed and signed)
+✓ KYC Documents (Aadhaar, PAN, Passport)
+✓ Income Proof (Salary certificate, Form 16, Bank statements)
+✓ Age Proof (Birth certificate)
+✓ Medical Report from Dr. Rajesh Mehta (dated 30/08/2025)
+✓ Nominee KYC (Wife's Aadhaar and PAN)
+✓ Employment Certificate
+✗ Medical Tests (CBC, Lipid Profile, ECG, Stress Test - scheduled for next week)
+
+EXISTING INSURANCE:
+Current Life Cover: Rs 20,00,000 with HDFC Life
+Previous Claims: None
+
+FINANCIAL DETAILS:
+Property Owned: Residential house worth Rs 80,00,000
+Bank: ICICI Bank Current Account
+Employment: 8 years current company, 12 years previous (HDFC Bank)

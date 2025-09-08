@@ -1,0 +1,41 @@
+HEALTH INSURANCE APPLICATION
+
+Applicant: Rohit Sharma
+Age: 34 years
+Occupation: Manufacturing Manager at Sharma Manufacturing Pvt Ltd
+Annual Income: Rs 12,00,000
+Contact: rohit.sharma@sharmamanufacturing.com, +91-9000000001
+
+COVERAGE DETAILS:
+Sum Insured: Rs 10,00,000
+Policy Type: Individual Health Insurance
+Riders: Critical Illness, Accident Cover
+
+MEDICAL INFORMATION:
+Current Health: Generally good health
+Pre-existing Conditions: Hypertension (controlled with Amlodipine 5mg daily)
+Family History: Father - Diabetes, Mother - Heart disease
+Lifestyle: Non-smoker, occasional alcohol, regular exercise
+BMI: 26.5 (slightly overweight)
+Last Hospitalization: 2021 for food poisoning (2 days)
+
+DOCUMENTS SUBMITTED:
+✓ Proposal Form (completed and signed)
+✓ KYC Documents (Aadhaar Card, PAN Card)
+✓ Medical Report from Dr. Anil Kumar (dated 28/08/2025)
+✓ Age Proof (Birth Certificate)
+✓ Passport Size Photographs (2 copies)
+✓ Income Proof (Salary certificate, Form 16)
+✗ Previous Policy (first-time health insurance buyer)
+
+MEDICAL TEST RESULTS:
+Blood Pressure: 130/85 mmHg (controlled)
+Blood Sugar: Fasting 95 mg/dl, PP 140 mg/dl (normal)
+Cholesterol: Total 180 mg/dl (normal)
+ECG: Normal sinus rhythm
+
+RISK FACTORS:
+- Hypertension requiring medication
+- Family history of diabetes and heart disease
+- Manufacturing industry exposure
+- Slightly overweight
